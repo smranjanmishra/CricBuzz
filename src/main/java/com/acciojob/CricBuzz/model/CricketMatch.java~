@@ -1,0 +1,11 @@
+package com.acciojob.CricBuzz.model;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@Entity
+@Builder
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public class CricketMatch {
+}

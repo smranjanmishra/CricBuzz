@@ -1,0 +1,13 @@
+spring.application.name=CricBuzz
+spring.datasource.url=jdbc:mysql://localhost:3306/cricbuzzDB?createTableIfNotExist=true
+spring.datasource.username=root
+spring.datasource.password=admin
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+spring.jpa.hibernate.ddl-auto=update
+
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=acciojobspring@gmail.com
+spring.mail.password=imrprnqgfrgfarvi
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
